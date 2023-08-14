@@ -1,0 +1,140 @@
+html
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(205, 99, 205);
+    margin: 0%;
+    padding: 0%;
+}
+
+.content-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+p
+{
+    display: flex;
+    justify-content: center;
+}
+
+.game-and-start-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 18px;
+}
+
+.game-container
+{
+    margin-top: 10px;
+    display: flex;
+}
+
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid purple;
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    font-size: 90px;
+    color: rgb(66, 22, 66);
+    font-weight: 800;
+}
+
+.box:hover
+{
+    background-color: white;
+    transition: 0.5s ease;
+}
+
+.X
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: solid purple;
+    border-radius: 15px;
+    font-size: 30px;
+    color: rgb(66, 22, 66);
+    font-weight: 800;
+}
+
+.O
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: solid purple;
+    border-radius: 15px;
+    font-size: 30px;
+    color: rgb(66, 22, 66);
+    font-weight: 800;
+}
+
+.start-container
+{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.choices
+{
+    display: flex;
+    gap: 10px;
+}
+
+.X:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.O:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(82, 2, 82);
+    font-size: 24px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1
+{
+    margin: 0;
+}
